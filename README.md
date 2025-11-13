@@ -10,10 +10,6 @@ Replicate a specified component using HTML, CSS, and JavaScript with pixel-perfe
 
 **[View Live Demo →](https://ellty-frontend-assignment.vercel.app)**
 
-Alternative URL: https://ellty-frontend-assignment-bycsfzj52-code-with-taraks-projects.vercel.app
-
-Deployed on Vercel
-
 ## 📋 Features
 
 - **Pixel-perfect design** matching the Figma prototype
