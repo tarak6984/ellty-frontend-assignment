@@ -5,7 +5,9 @@ const doneButton = document.querySelector('.done-button');
 // Add event listeners to checkboxes
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', function() {
-        console.log(`${this.parentElement.parentElement.querySelector('.page-label').textContent} is ${this.checked ? 'checked' : 'unchecked'}`);
+        const pageItem = this.closest('.page-item');
+        const pageName = pageItem.querySelector('.page-label').textContent;
+        console.log(`${pageName} is ${this.checked ? 'checked' : 'unchecked'}`);
     });
 });
 
@@ -14,7 +16,8 @@ doneButton.addEventListener('click', function() {
     const checkedPages = [];
     checkboxes.forEach(checkbox => {
         if (checkbox.checked) {
-            const pageName = checkbox.parentElement.parentElement.querySelector('.page-label').textContent;
+            const pageItem = checkbox.closest('.page-item');
+            const pageName = pageItem.querySelector('.page-label').textContent;
             checkedPages.push(pageName);
         }
     });
