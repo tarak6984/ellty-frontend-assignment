@@ -8,7 +8,9 @@ Replicate a specified component using HTML, CSS, and JavaScript with pixel-perfe
 
 ## 🚀 Live Demo
 
-[Live Demo Link](#) *(Will be updated after deployment)*
+**[View Live Demo →](https://ellty-frontend-assignment-9pwosgr2z-code-with-taraks-projects.vercel.app)**
+
+Deployed on Vercel
 
 ## 📋 Features
 
